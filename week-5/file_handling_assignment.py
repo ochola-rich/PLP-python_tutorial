@@ -23,7 +23,7 @@ except PermissionError:
     print("Error: You don't have the required permission to open the file")
 
 except Exception as e:
-    print(f"Unexpected Error occuerred: {e}")
+    print(f"Unexpected Error occurred: {e}")
 
 finally:
     print(f"{file.name} has been closed after successfull operations")    
